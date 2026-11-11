@@ -2,13 +2,13 @@ package models;
 
 public class Persona {
     private String nombre;
-    private byte edad;
+    private int edad;
     private String genero;
 
     public Persona() {
     }
 
-    public Persona(String nombre, byte edad, String genero) {
+    public Persona(String nombre, int edad, String genero) {
         this.nombre = nombre;
         this.edad = edad;
         this.genero = genero;
@@ -22,11 +22,11 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public byte getEdad() {
+    public int getEdad() {
         return edad;
     }
 
-    public void setEdad(byte edad) {
+    public void setEdad(int edad) {
         this.edad = edad;
     }
 
